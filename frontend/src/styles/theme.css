@@ -1,0 +1,41 @@
+/* Custom Theme Variables */
+:root {
+  --primary: #1a3457;
+  --primary-light: #2563a8;
+  --primary-dark: #0b1e33;
+  --secondary: #2a7a5c;
+  --bg-light: #f0f4fb;
+  --card-bg: rgba(255, 255, 255, 0.6);
+  --card-border: rgba(255, 255, 255, 0.8);
+  --text-primary: #14273e;
+  --text-secondary: #2c405c;
+  --shadow: 0 8px 32px rgba(0, 20, 40, 0.08);
+}
+
+/* Utility Classes */
+.flex {
+  display: flex;
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.gap-1 { gap: 0.5rem; }
+.gap-2 { gap: 1rem; }
+.gap-3 { gap: 1.5rem; }
+
+.mt-1 { margin-top: 0.5rem; }
+.mt-2 { margin-top: 1rem; }
+.mt-3 { margin-top: 1.5rem; }
+.mb-1 { margin-bottom: 0.5rem; }
+.mb-2 { margin-bottom: 1rem; }
+
+.text-sm { font-size: 0.875rem; }
+.text-xs { font-size: 0.75rem; }
+.text-muted { color: #5d6f88; }
