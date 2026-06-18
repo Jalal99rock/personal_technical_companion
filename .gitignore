@@ -1,0 +1,413 @@
+# ============================
+# Python / Django
+# ============================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.pyo
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+pytestdebug.log
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+*.sqlite3
+*.db
+
+# Django static files
+static/
+staticfiles/
+media/
+mediafiles/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+.venv
+.venv.bak
+.virtualenv
+.virtualenvs
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+
+# ============================
+# Node.js / React / Frontend
+# ============================
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+pnpm-debug.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+bower_components/
+
+# Build outputs
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Testing
+coverage/
+.nyc_output/
+.idea/
+testem.log
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+.yarn-integrity
+.yarn/cache
+.yarn/unplugged
+
+# Webpack
+.webpack/
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.staging.local
+
+# Package manager lock files (optional - add if you want)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# ============================
+# React Specific
+# ============================
+
+# Misc
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+lerna-debug.log*
+
+# React build
+/build
+/dist
+/out
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ============================
+# MySQL Database
+# ============================
+
+# MySQL
+*.myi
+*.myd
+*.frm
+*.ibd
+*.ibdata1
+*.idb1
+*.err
+*.pid
+*.sock
+*.my.cnf
+*.cnf
+mysql-bin.*
+ib_logfile*
+aria_log.*
+*.sql.gz
+*.sql.zip
+*.sql
+
+# ============================
+# Windows
+# ============================
+
+# Windows thumbnail cache
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# ============================
+# macOS
+# ============================
+
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# ============================
+# Linux
+# ============================
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder
+.trash-*
+
+# ============================
+# Security / Sensitive Files
+# ============================
+
+# Private keys
+*.pem
+*.key
+*.crt
+*.csr
+*.der
+*.p12
+*.pfx
+
+# Credentials
+credentials.json
+secrets.json
+*_secret.py
+
+# ============================
+# Project Specific
+# ============================
+
+# Backend specific
+backend/db.sqlite3
+backend/venv/
+backend/__pycache__/
+backend/static/
+backend/staticfiles/
+backend/media/
+backend/.env
+backend/*.pyc
+
+# Frontend specific
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/coverage/
+
+# Backup files
+*.bak
+*.backup
+*.tmp
+*.temp
+*.old
+*.orig
+
+# Log files
+*.log
+logs/
+.logs/
+
+# Testing
+*.test
+*.spec.js
+*.spec.ts
+
+# Temporary files
+tmp/
+temp/
+*.swp
+*.swo
+*~
+
+# ============================
+# Optional (Choose what you need)
+# ============================
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# pyenv
+.python-version
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# Profiling data
+.prof
+*.prof
+
+# Swagger / API docs
+/swagger/
+/docs/
+
+# Database migrations (uncomment if you want to exclude migrations)
+# **/migrations/*.py
+# !**/migrations/__init__.py
+
+# ============================
+# Docker
+# ============================
+
+# Docker
+docker-compose.override.yml
+docker-compose.override.yaml
+*.dockerignore
+.docker/
+.dockerignore
+Dockerfile.*.local
+
+# ============================
+# Terraform
+# ============================
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.tfstate.lock.info
+
+# ============================
+# Kubernetes
+# ============================
+
+# Kubernetes
+*.secret.yaml
+*.secret.yml
+secrets.yaml
+secrets.yml
+.helmignore
+Chart.lock
+**/charts/*.tgz
+*.kubeconfig
