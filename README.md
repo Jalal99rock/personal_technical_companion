@@ -94,4 +94,3 @@ POST /api/qa/ask/ - Ask a question
 Goals
 GET /api/goals/ - List goals
 
-POST /api/goals/update_progress/ - Update goal progress
